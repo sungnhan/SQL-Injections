@@ -41,14 +41,17 @@ If the user no longer enters normally and, for example, adds a quote ' or ", you
 
 ### b. Common Causes of SQL Injection
 * Old, Legacy, or Lazy Code
+  
 Sometimes code was secure enough or adequate when it was written, but as time passed and technology changed, what was secure 10 years ago is no longer acceptable.
 
-* Outdated/Unpatched Applications
+* Outdated/Unpatched Application
+
 Making use of unsupported or legacy software or features introduces security holes that may not be patched or caught as quickly as they would with modern software.
 
 Running patched and modern versions of software are critical to avoiding security exploits, including SQL injection. Continuously monitoring for new security vulnerabilities and reacting as needed is an important step towards avoiding unnecessary surprises.
 
 * Security Assumptions
+  
 Often, we are led to a false sense of security due to the isolation of different application teams or environments. If we are led to believe that an application’s web forms are protected against injection by default, then we might be lax when developing stored procedures or other database objects.
 
 * Failure to Layer Security
